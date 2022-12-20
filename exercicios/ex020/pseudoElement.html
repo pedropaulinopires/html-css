@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-elemento</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 0.9em;
+        }
+        a{
+            color: rgb(109, 1, 1);
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            color: black;
+        }
+        a:active{
+            color: rgb(206, 0, 0);
+        }
+
+        .destaque::before{
+            content:' ==> ';
+        }
+        .destaque::after{
+            content: ' <==';
+        }
+    </style>
+</head>
+<body>
+    <h1>Links</h1>
+    <ul type="circle">
+        <li><a href="https://www.facebook.com/pedrohenrique.pires.716" target="_blank" rel="external">Meu facebook</a></li>
+        <li><a href="https://www.instagram.com/pedropaulinopires/" target="_blank" rel="external" class="destaque">Meu instagram</a></li>
+        <li><a href="https://www.youtube.com/channel/UCB3Dm7vo1MvLU8liDk68VFA" target="_blank" rel="external">Meu canal no YouTube</a></li>
+    </ul>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        h1>p{
+            display: none;
+        }
+        h1{
+            background-color: lightgray;
+            border: 10px solid black;
+            width: 300px;
+            height: 300px;
+            padding: 10px ;
+            outline: 5px groove red;
+            margin-top: 20px;
+            margin-right: auto;
+            margin-bottom: 50px ;
+            margin-left: auto;
+    
+
+        }
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            border:1px solid red ;
+            padding-top: 8px;
+            padding:1px;
+            outline: 3px dotted green  ;
+            
+        }
+        p{
+            display: inline-block;
+            margin-left: 25px;
+            width: 200px;
+        }
+        h1:hover > p{
+            background-color: rgb(255, 60, 0);
+            cursor: pointer;
+            display: block;
+        }
+        h1:hover{
+            background-color: blue;
+            cursor: pointer;
+            display: block;
+        }
+        h1:active{
+            background-color: lightgray;
+        }
+
+    </style>
+    <title>Modelo de caixa</title>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level
+        <p>Ola</p>
+    </h1>
+    <p>Parágrafos tambem são box level mas link <a href="">aaaa</a>. Vamos ver como isso funciona!</p>  
+</body>
+</html>

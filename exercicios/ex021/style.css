@@ -1,0 +1,78 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(99, 99, 99);
+}
+nav > h1{
+    margin-top: 0px;
+    margin-bottom: 36px;
+    text-align: center;
+}
+header{
+    background-color: white;
+    padding: 8px;
+    margin: 10px auto 10px auto;
+    
+    border-radius: 8px;
+    box-shadow: 3px 5px 9px 3px rgb(0 0 0 / 33%);
+    height: 98px;
+}
+nav > a {
+    margin-right: 20px;
+    text-decoration: none;
+    background-color: rgb(124, 124, 124);
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    color: white;
+}
+nav > a:hover{
+    background-color:  rgba(124, 124, 124, 0.541) ;
+    color:rgba(255, 255, 255, 0.473) ;
+}
+nav >a:active {
+    background-color: rgba(255, 255, 255, 0); 
+    color: rgba(255, 255, 255, 0);
+
+} 
+
+main{
+    background-color: white;
+    border-radius: 8px;
+   padding: 10px;
+}
+article > p{
+    text-align: justify;
+    padding-left: 10px ;
+    padding-right: 10px;
+    
+
+}
+article > h1{
+    text-align: center;
+    
+}
+ article{
+    background-color: rgb(197, 195, 195);
+    border-radius: 5px;
+    margin: 5px;
+ }
+article > aside{
+    margin-left: 5px;
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1px;
+    margin-top: 5px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.1em;
+}
+footer >p{
+    margin: 0px;
+}
+section{
+    margin-top: 25px;
+}
+

@@ -1,0 +1,23 @@
+@charset "UTF-8";
+main {
+  background-color: #eb302d98;
+  height: 150px;
+  border-radius: 8px;
+  margin: auto;
+}
+body {
+  background-image: linear-gradient(to bottom, rgb(2, 2, 75), blue);
+  background-attachment: fixed;
+}
+h1 {
+  margin: auto;
+  text-align: center;
+  color: #7a81eb;
+
+}
+img {
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 20px;
+}

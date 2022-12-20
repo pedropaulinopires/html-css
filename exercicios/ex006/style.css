@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(255, 209, 153);
+}
+
+h1{
+    color: rgb(248, 118, 11);
+    padding: 8px;
+}
+
+h2{
+    background-color: rgb(48, 197, 135);
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+h3{
+    font-style: oblique;
+    color: rgb(128, 1, 1);
+}
+
+h4{
+    color: rgb(82, 0, 0);
+}

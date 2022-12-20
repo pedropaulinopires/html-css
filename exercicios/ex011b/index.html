@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <title>imagens redimensionais</title>
+</head>
+<body>
+    <h1>Imagem adaptativa!</h1>  
+    <p>Para testar a adaptação da imagem abaixo basta diminuir ou amentar a janela do seu navegador!</p>
+    <picture>
+        <source media="(max-width: 725px)" srcset="imagens/cidade-p.jpg" type="image/jpg">
+        <source media="(max-width: 1025px )" srcset="imagens/cidade-m.jpg" type="image/jpg">
+        <img src="imagens/cidade-g.jpg" alt="imagem adaptativa">
+    </picture>
+</body>
+</html>

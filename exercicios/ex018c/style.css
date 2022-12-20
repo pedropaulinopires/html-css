@@ -1,0 +1,30 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'natal';
+    src: url(fonts/natal.ttf) format(truetype);
+}
+@font-face {
+    font-family: 'texto';
+    src: url(fonts/NixieOne.ttf) format(truetype);
+}
+h1{
+    font-family: 'natal';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    text-align: center;
+}
+h2{
+    font-family: 'texto';
+    font-weight: 900;
+    font-style: normal;
+    text-align: right;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.02em;
+    text-align: justify;
+    text-indent: 55px;
+}

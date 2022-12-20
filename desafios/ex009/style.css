@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+a:hover {
+  opacity: 0.3;
+  transition: 0.1s;
+}

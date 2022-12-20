@@ -1,0 +1,15 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'natal' ;
+    src: url(fonts/natal.ttf) format('TrueType');
+}
+h1{
+    font-family: 'natal';
+    font-weight: normal;
+    font-size:3em;
+}
+h2{
+    font-family: 'natal';
+    font-weight: normal;
+    font-size:3em;
+}
