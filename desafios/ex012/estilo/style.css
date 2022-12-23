@@ -58,6 +58,9 @@ section.imagem {
   color: white;
   background-color: rgba(0, 0, 0, 0.623);
   box-shadow: inset 2px 2px 8px black;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: right center;
 }
 section.imagem p {
   background-color: rgba(0, 0, 0, 0.664);
@@ -67,17 +70,12 @@ section.imagem p {
 }
 section#img01 {
   background-image: url("../imagens/background001.jpg");
-  background-attachment: fixed;
-  background-position: right center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+
 }
 section#img02 {
   background-image: url("../imagens/background002.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: right center;
+  
 }
 footer {
   background-color: black;
