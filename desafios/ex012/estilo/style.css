@@ -1,86 +1,86 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
-:root{
-    --font2:'Sriracha', cursive;
-    --font1:Verdana, Geneva, Tahoma, sans-serif;
-    --font3:'Passion One', cursive;
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Passion+One&display=swap");
+:root {
+  --font2: "Sriracha", cursive;
+  --font1: Verdana, Geneva, Tahoma, sans-serif;
+  --font3: "Passion One", cursive;
 }
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  background-color: darkgray;
+  min-height: 100vh;
+  font-family: var(--font1);
+}
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+}
+a:hover {
+  text-decoration: underline;
+  color: rgba(255, 255, 255, 0.768);
+}
+header h1 {
+  font-variant: small-caps;
+  padding-top: 50px;
+  font-size: 10vw;
+  font-family: var(--font3);
 
 }
-html,body{
-    background-color: darkgray;
-    min-height: 100vh;
-    font-family: var(--font1);
-}
-header{
-    background-color: black;
-    color: white;
-    text-align: center;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-weight: bolder;
-}
-a:hover{
-    text-decoration: underline;
-    color: rgba(255, 255, 255, 0.768);
-}
-header h1{
-    font-variant: small-caps;
-    padding-top: 50px;
-    font-size: 10vw;
-    font-family: var(--font3);
-}
-header p{
-    padding-top: 5px;
-    padding-bottom: 50px;
-    
+header p {
+  padding-top: 5px;
+  padding-bottom: 50px;
 }
 section {
-    padding-left: 30px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    font-size: 4vw;
-    font-family: var(--font2);
+  padding-left: 30px;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  font-size: 4vw;
+  font-family: var(--font2);
 }
-section.normal{
-    background-color: white;
+section.normal {
+  background-color: white;
 }
-section.normal p{
-    padding-bottom: 1em;
+section.normal p {
+  padding-bottom: 1em;
 }
-section.imagem{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.623);
-    box-shadow:inset 2px 2px 8px black;
+section.imagem {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.623);
+  box-shadow: inset 2px 2px 8px black;
 }
-section.imagem p{
-    background-color: rgba(0, 0, 0, 0.664);
-    padding: 5px;
-    display: inline-block;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.546);    
+section.imagem p {
+  background-color: rgba(0, 0, 0, 0.664);
+  padding: 5px;
+  display: inline-block;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.546);
 }
-section#img01{
-    background-image: url('../imagens/background001.jpg');
-    background-attachment: fixed;
-    background-position: right center;
-    background-size:cover;
-    background-repeat: no-repeat;
+section#img01 {
+  background-image: url("../imagens/background001.jpg");
+  background-attachment: fixed;
+  background-position: right center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-section#img02{
-    background-image: url('../imagens/background002.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: right center;
+section#img02 {
+  background-image: url("../imagens/background002.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
