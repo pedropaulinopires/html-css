@@ -3,3 +3,54 @@
     margin: 0;
     padding: 0;
 }
+html,body{
+    background-color: darkgray;
+    min-width: 100%;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.768);
+}
+header h1{
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+header p{
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+section {
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+section.normal{
+    background-color: white;
+}
+section.imagem{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.623);
+
+}
+section.imagem p{
+    background-color: rgba(0, 0, 0, 0.664);
+    padding: 5px;
+    width:400px;
+    
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
