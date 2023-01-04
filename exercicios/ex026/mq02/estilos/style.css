@@ -1,3 +1,20 @@
 @charset "UTF-8";
 
 /*estilo universal*/
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(62, 62, 249);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    text-shadow: 3px 3px 0px blue;
+}
