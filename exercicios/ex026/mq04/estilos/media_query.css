@@ -4,9 +4,120 @@
 
 /*Para impressoras*/
 @media print {
-    
+  /*Para impressão*/
+  * {
+    font-family: 'Courier New', Courier, monospace;
+  }
+  main{
+    box-shadow: none;
+    border: 2px solid black;
+  }
+  h1{
+    text-shadow: none;
+    color: black;
+  }
+  main::after{
+    content: 'impressão feita no site do @pedrão';
+  }
+  /*icones do main*/
+  img {
+    margin: auto;
+  }
+  img#phone {
+    display: none;
+  }
+  img#tablet {
+    display: none;
+  }
+  img#print {
+    display: block;
+  }
+  img#pc {
+    display: none;
+  }
+  img#tv {
+    display: none;
+  }
 }
-/*Para telas*/
-@media screen {
-    
+/*para telas
+tablets: min 768px
+pc:min 992px
+tv:min 1200px
+*/
+
+@media screen and (min-width: 768px) {
+  /*tela de tablet*/
+  body {
+    background-image: url(../imagens/back-tablet.jpg);
+  }
+  img {
+    margin: auto;
+  }
+  img#phone {
+    display: none;
+  }
+  img#tablet {
+    display: block;
+  }
+  img#print {
+    display: none;
+  }
+  img#pc {
+    display: none;
+  }
+  img#tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  /*Tela de pc */
+  body {
+    background-image: url(../imagens/back-pc.jpg);
+  }
+  /*icones do main*/
+  img {
+    margin: auto;
+  }
+  img#phone {
+    display: none;
+  }
+  img#tablet {
+    display: none;
+  }
+  img#print {
+    display: none;
+  }
+  img#pc {
+    display: block;
+  }
+  img#tv {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  /*tela de tv*/
+  body {
+    background-image: url(../imagens/back-tv.jpg);
+  }
+  /*icones do main*/
+  img {
+    margin: auto;
+  }
+  img#phone {
+    display: none;
+  }
+  img#tablet {
+    display: none;
+  }
+  img#print {
+    display: none;
+  }
+  img#pc {
+    display: none;
+  }
+  img#tv {
+    display: block;
+  }
 }
