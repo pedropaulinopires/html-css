@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* estilo para impresoras*/
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+menu{
+    display: none;
+}
+article{
+    width: 100%;
+}
+p{
+    line-height: 1.5em;
+    text-indent: 15px;
+    text-align: justify;
+}
+#info_impressao{
+    display: block;
+}
