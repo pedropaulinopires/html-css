@@ -25,12 +25,11 @@ span#burguer{
         cursor: pointer;
     }  
 }
-
-span#burguer:active{
-    background-color: white;
-    color: black;
-    transition: all 0.3s;
+span#burguer:hover{
+    cursor: pointer;
 }
+
+
 menu{
     display: none;
 }
