@@ -17,13 +17,15 @@ span#burguer{
     text-align: center;
     transition: all 0.3s;
 }
-
-span#burguer:hover{
-    background-color: white;
-    color: black;
-    transition: all 0.3s;
-    cursor: pointer;
+@media screen and (min-width: 600px) {
+    span#burguer:hover{
+        background-color: white;
+        color: black;
+        transition: all 0.3s;
+        cursor: pointer;
+    }  
 }
+
 span#burguer:active{
     background-color: white;
     color: black;
@@ -50,11 +52,14 @@ header a{
     padding: 10px;
     transition: all 0.3s;
 }
-header a:hover{
-    background-color: rgb(45, 45, 45);
-    transition: all 0.3s;
-    color: darkgray;
+@media screen and (min-width: 600px) {
+    header a:hover{
+        background-color: rgb(45, 45, 45);
+        transition: all 0.3s;
+        color: darkgray;
+    }
 }
+
 header a:active{
    background-color: rgb(9, 9, 9);
     transition: all 0.3s;
