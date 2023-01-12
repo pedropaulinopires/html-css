@@ -33,6 +33,11 @@ span#burguer:hover{
 menu{
     display: none;
 }
+
+ul{
+  transition: all .5s;
+}
+
 header{
     background-color: rgb(161, 161, 161);
 }
